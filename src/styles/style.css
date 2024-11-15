@@ -9,6 +9,35 @@
     --background-color: #0891b2;
 }
 
+h1 {
+    transform: translateY(-60px);
+    color: white;
+}
+
+.red {
+    background-color: #9e1c1c;
+  }
+  
+  .purple {
+    background-color: #7c75ca;
+  }
+  
+  .green {
+    background-color: #5e8f4d;
+  }
+  
+  .pink {
+    background-color: #c363b4;
+  }
+  
+  .orange {
+    background-color: #d88f39;
+  }
+  
+  .blue {
+    background-color: #4ba2d2;
+  }
+  
 
 
 body {
@@ -70,16 +99,24 @@ a > img {
     gap: 10px;
 }
 
+.social-contact-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
 .project {
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     text-align: center;
+    height: 400px;
+    position: relative;
   }
-
+  
   .projects {
     display: grid;
     grid-gap: 50px;
@@ -94,6 +131,45 @@ a > img {
     margin-bottom: 20px;
 }
 
-/* .contact, .header {
+.portfolio {
+    margin-bottom: 50px;
+}
+
+.project-image {
+    height: 300px;
+    font-size: xx-large;
+    text-align: center;
+    padding: 80px;
+    color: white;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.contact{
+    height: 400px;
+    display: flex;
+    gap: 20px;
     background-color: var(--background-color);
-} */
+    padding: 40px;
+    color: white;
+}
+
+.contact-image > img {
+    width: 500px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p > img {
+    width: 24px;
+    height: 24px;
+}
