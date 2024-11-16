@@ -152,15 +152,23 @@ a > img {
 
 .contact{
     height: 400px;
+    background-color: var(--background-color);
+}
+
+.contact-container {
+    /* height: 400px; */
     display: flex;
     gap: 20px;
     background-color: var(--background-color);
-    padding: 40px;
+    padding-top: 60px;
     color: white;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .contact-image > img {
     width: 500px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .contact-info {
@@ -173,3 +181,9 @@ p > img {
     width: 24px;
     height: 24px;
 }
+
+/* @media (max-width: 900px) {
+    .profile > img {
+        transform: translate(-90px, 45px);
+    }
+} */
